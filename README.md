@@ -1,4 +1,13 @@
+## ボールの種類分類モデルの転移学習・保存・評価
+1. icrawlerで画像をスクレイピング
+2. split_train_test_data()でスクレイピングした画像を学習用と評価用に分割
+3. モデルの構築・学習・保存
+4. 学習の可視化
+5. 評価用のテストデータでロバストな精度評価
+
+### コピーして実行する場合の注意点
 パス指定の際に "<>" の部分をこのノートブックを配置したフォルダパスを記入
 
-（例）ノットブックを "content/drive/MyDrive/root_folder/BallCrastering.ipynb" に配置した場合
+#### （例）ノットブックを "content/drive/MyDrive/root_folder/BallCrastering.ipynb" に配置した場合
+
 "<>" => "root_folder" を代入して実行
